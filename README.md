@@ -1,6 +1,6 @@
 # deezer-api
 
-Zero dependencies Deezer client : use your own client
+Zero dependencies Deezer client : use your own request client (`axios`, `fetch` ...)
 
 To use the Client, see the documentation of [https://developers.deezer.com/api/explorer](https://developers.deezer.com/api/explorer)
 
