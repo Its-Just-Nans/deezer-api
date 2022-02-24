@@ -23,7 +23,7 @@ const asyncMain = async () => {
     req = await client.myUser.infos();
     req = await client.myUser.albums();
 
-    req = await client.user("OTHER_ID").playlists(); // request with a new différent client id;
+    req = await client.user("OTHER_ID").playlists(); // request with a new different client id;
 
 
     req = await client.search.infos("eminem"); // example for a global search
