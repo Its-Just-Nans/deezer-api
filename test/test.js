@@ -1,8 +1,6 @@
 import process from "process";
 import DeezerClient from "../index.js"
 import axios from "axios";
-import fs from "fs";
-
 /*
 
 This example prints all track of a user.
@@ -54,7 +52,8 @@ const printAllTracks = (array) => {
 }
 
 const exportToJSON = async (array) => {
-    await fs.promises.writeFile("data.json", JSON.stringify(array, null, 4))
+    // import fs from 'fs';
+    // await fs.promises.writeFile("data.json", JSON.stringify(array, null, 4))
 }
 
 send()

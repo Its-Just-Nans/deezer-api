@@ -9,7 +9,7 @@
   "author": "n4n5",
   "license": "MIT",
   "type": "module",
-  "dependencies": {
-    "axios": "^0.24.0"
+  "devDependencies": {
+    "axios": "^0.26.0"
   }
 }
